@@ -1,4 +1,6 @@
-﻿$Result = @()
+
+Connect-AzureAD
+$Result = @()
 
 $AllUsers= Get-AzureADUser -All $true |Where {$_.UserType -eq 'Member' -and $_.AssignedLicenses -ne $null} | Select-Object -Property Displayname,UserPrincipalName,JobTitle,PhysicalDeliveryOfficeName,Department
 
