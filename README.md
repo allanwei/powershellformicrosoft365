@@ -1,5 +1,5 @@
 # powershellformicrosoft365
-powershell scripts collection for manager microsoft 365
+My powershell scripts collection for manager microsoft 365 
 ## Azure Active Directory PowerShell
 [Install Azure Active Directory PowerShell](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
 ## scripts
