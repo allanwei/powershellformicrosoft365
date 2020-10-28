@@ -1,0 +1,5 @@
+C:\WINDOWS\system32>w32TM /config /syncfromflags:manual /manualpeerlist:time.nrc.ca
+
+C:\WINDOWS\system32>w32tm /config /update
+
+C:\WINDOWS\system32>w32tm /resync
